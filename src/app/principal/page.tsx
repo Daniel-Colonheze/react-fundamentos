@@ -1,20 +1,12 @@
-function Acomodacao() {
-  return (
-    <div>
-      <span>IMAGEM ACOMODACAO</span>
-      <h1>Candido Mota, Brazil</h1>
-      <p>Perto de Assis</p>
-    </div>
-  );
-}
+import { Acomodacao, Cabecalho } from "@/src/components/interface"
 
 export default function Page() {
-    const nome = 'Daniel'
   return (
     <div>
+        {Cabecalho()}
+        <hr />
         {Acomodacao()}
         <hr /> 
-        {nome}
     </div>
 )
 }

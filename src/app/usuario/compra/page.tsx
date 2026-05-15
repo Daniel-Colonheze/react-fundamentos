@@ -1,4 +1,5 @@
-export default function Compra(){
-    return <h1>Pagina de compra</h1>
+import { Acomodacao } from "@/src/components/interface"
+
+export default function Compra() {
+  return <Acomodacao />;
 }
- 
