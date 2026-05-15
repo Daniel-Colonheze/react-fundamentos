@@ -1,9 +1,9 @@
-/**
- * INTEGRAÇÃO NO REACT (JSX)
- * 
- * JSX permite escrever HTML dentro do JavaScript no React.
- * A regra básica é: TUDO que estiver dentro de chaves {} é JavaScript puro.
- * Isso permite integrar variáveis, funções, expressões e componentes dentro do HTML.
+/*
+  INTEGRAÇÃO NO REACT (JSX)
+  
+  JSX permite escrever HTML dentro do JavaScript no React.
+  A regra básica é: TUDO que estiver dentro de chaves {} é JavaScript puro.
+  Isso permite integrar variáveis, funções, expressões e componentes dentro do HTML.
  */
 
 export default function Page() {

@@ -8,10 +8,15 @@ export function Acomodacao() {
   );
 }
 
-export function Cabecalho() {
+interface CabecalhoProps {
+  titulo: string;
+}
+
+export function Cabecalho(props: CabecalhoProps) {
   return (
     <div className="bg-blue-600">
         <h1>Logo</h1>
+        <p>{props.titulo}</p>
         {Menu()}
     </div>
   );
