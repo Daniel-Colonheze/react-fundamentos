@@ -15,7 +15,7 @@ function incrementar() {
 
   return (
     <div>
-      <h1>Estados</h1>
+      <h1 className="meuTexto">Estados</h1>
       <button className="bg-blue-400 p-2" onClick={incrementar}>
         Click
       </button>
