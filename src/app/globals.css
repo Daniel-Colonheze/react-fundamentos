@@ -12,13 +12,6 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
@@ -27,4 +20,14 @@ body {
 
 .meuTexto{
   @apply bg-red-500
+}
+
+.campo-texto{
+  @apply bg-gray-200 p-1;
+  @apply rounded-md;
+}
+
+.botao{
+  @apply bg-blue-500 p-1;
+  @apply rounded-md text-white;
 }
